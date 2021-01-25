@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+body{
+    background-color: rgb(104, 167, 104);
+}
+.container{
+    /* border: 2px solid white; */
+    font-family: 'Monaco',monospace;
+    margin: 45px 33px;
+    padding: 75px ;
+    padding-top: 20px ;
+    padding-bottom: 20px;
+    width: 48%;
+    border-radius: 28px;
+    font-size: 15px;
+    background-color: rgb(245, 238, 238);
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-2{
+    padding: 20px;
+}
+.form-group input{
+    font-family: 'Monaco',monospace;
+    text-align: center;
+    display: block;
+    width: 500px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 9px auto;
+    font-size: 20px;
+    border-radius: 8px;
+}
+.container h1{
+    text-align: center;
+    color: grey;
+}
+.container button{
+    display: block;
+    width: 500px;
+    margin: 15px auto;
+}
+
+
+.root {
+    --mycolor: rgb(255,0,140)
+}
+
+.card-group #card-1{
+    background: linear-gradient(to bottom, #ab66c0 0%, #870e92 100%);
+    margin: 1rem;
+    border: none;
+}
+.card-group #card-2{
+    background: linear-gradient(to bottom, #dd7545 0%, #d33e11 100%);
+    margin: 1rem;
+    border: none;
+}
+.card-group #card-3{
+    background: linear-gradient(to bottom, #55ce65 0%, #0ebe2b 100%);
+    margin: 1rem;
+    border: none;
+}
+.card-body{
+    margin: 45px 33px;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+}
+.card-body p{
+    padding: 10;
+}
+.btn.disabled, .btn:disabled, fieldset:disabled .btn {
+    pointer-events: none;
+    position: relative;
+    top: -113%;
+    left: 42%;
+    opacity: 1;
+    width: 200;
+    height: 50;
+    background-color: rgb(66, 66, 167);
+}
+#btn1{
+    pointer-events: none;
+    position: relative;
+    margin: 0px 9px;
+    padding: 4px 14px;
+    color: white;
+    top: -53%;
+    left: -14%;
+    width: 350;
+    height: 72px;
+    border-radius: 36px;
+    font-size: 30;
+    cursor: pointer;
+}
+#btn1:hover{
+    background-color:red;
+}
+#btn1:active::after {
+    border-bottom: 0px;
+    border-top: 2px solid #0169AD;
+    margin-top: 2px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+#btn2{
+    pointer-events: none;
+    position: relative;
+    top: -52%;
+    left: -8%;
+    width: 350;
+    height: 72px;
+    border-radius: 36px;
+    font-size: 30;
+    cursor: pointer;
+}
+#btn2:hover{
+    background-color:red;
+}
+#btn2:active:after {
+    border-bottom: 0px;
+    border-top: 2px solid #0169AD;
+    margin-top: 2px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+#btn3{
+    pointer-events: none;
+    position: relative;
+    top: -53%;
+    left: -3%;
+    width: 350;
+    height: 72px;
+    border-radius: 36px;
+    font-size: 30;
+    cursor: pointer;
+}
+#btn3:hover{
+    background-color:red;
+}
+#btn3:active:after {
+    border-bottom: 0px;
+    border-top: 2px solid #0169AD;
+    margin-top: 2px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+.mb-3 {
+    margin-bottom: 1rem!important;
+    margin-left: 73px;
+}
+
+.accordion{
+    padding: 20px;
+}
+
+.address li{
+    color: grey;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+    list-style-type: none;
+}
+.address{
+    padding: 20px;
+    padding-bottom: 0px;
+    margin-bottom: -45px;
+}
+.address p{
+    margin-left: 679px;
+    margin-top: -166px;
+    color: white;
+    margin-bottom: -61px;
+}
+#about {
+	padding: 20px 0;
+	background: rgb(104, 167, 104);
+}
+#about .about-text {
+    margin-left: 10px;
+    width: 500px;
+}
+#about img {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+}
+#about p {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+#me{
+    background-color: rgb(214, 255, 214);
+}

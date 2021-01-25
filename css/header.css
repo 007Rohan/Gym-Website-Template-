@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.header{
+    background: rgb(245, 238, 238) ;
+    padding-top: 25px;
+    padding-bottom: -8px;
+    position: relative;
+    z-index: 100;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+.left{
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 34px;
+    top: 16px;
+}
+.left img{
+    width: 49px;
+}
+.img svg{
+    vertical-align: text-bottom;
+}
+.left div{
+    line-height: 19px;
+    font-size: 42px;
+    text-align: center;
+    color: green;
+    display: inline-block;
+    position: relative;
+    top: 14px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:link {
+  color: white;
+}
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+
+/* selected link */
+a:active {
+  color: white;
+}
+.mid{
+    display: block;
+    width: 47%;
+    margin: 0px auto;
+    /* border: 2px solid green; */
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+.sticky + .content {
+    padding-top: 102px;
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 32px;
+    display: inline-block;
+    /* border: 2px solid yellow ; */
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+    background-color: rgb(245, 238, 238);
+}
+.navbar li a{
+    color: grey;
+    text-decoration: none;
+    padding: 15px 15px;
+}
+.navbar li a:hover, .navbarli a.active{
+    text-decoration: underline;
+    color: green;
+}
+.btn{
+    font-family: 'Monaco',monospace;
+    margin: 0px 9px;
+    background-color: green;
+    color: white;
+    padding: 4px 14px;
+    /* border: 2px solid grey; */
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:rgb(31, 168, 31);
+}
+
+  /* Tooltip text */
+#tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgb(38, 167, 60);
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+  
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: -264%;
+    left: 50%;
+    margin-left: -60px;
+  
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+  
+  /* Tooltip arrow */
+#tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(38, 167, 60) transparent transparent transparent;
+}
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+#tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}

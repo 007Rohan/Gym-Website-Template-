@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+footer {
+    font-family: 'Monaco',monospace;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: grey;
+    background-color: rgb(230, 230, 230);
+    padding: 20px;
+    padding-top: 0%;
+    background-attachment: fixed;
+}
+.text {
+    font-size: 24px;
+    margin: 20px auto;
+}
+#email{
+    font-size: 20px;
+    font-weight: bold;
+}
+footer input[type='email']{
+    width: calc(95vw - 40vw);
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 30px 0 0 30px;
+    outline: none;
+    border: none;
+    color: var(--mycolor);
+}
+footer input[type='submit']{
+    border: none;
+    outline: none;
+    border-radius: 0 30px 30px 0;
+    padding: 10px;
+    color: white;
+    background: var(--mycolor);
+    font-size: 16px;
+    cursor: pointer;
+    background-color: green;
+}
+footer input:hover[type='submit'] {background: rgb(31, 168, 31);}
+.list-footer {
+    margin: 20px auto;
+    display: flex;
+    list-style-type: none;
+}
+.list-footer li a {
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+}
+.list-footer li a:hover{
+    color: green;
+}
+
+.social-media {
+    margin: -18px auto;
+}
+.social-media i {
+    padding: 20px;
+    font-size: 25px;
+    color: grey;
+}
+.social-media :hover{
+    color: green;
+}
+p{
+    margin-top: 0;
+    margin-bottom: -1rem;
+}
+@media(max-width:810px){
+    .text ,  footer input[type='email'] ,
+    footer input[type='submit'] {
+        font-size: 20px;
+    }
+    .list-footer li a {
+        padding: 15px;
+        font-size: 15px;
+    }
+    .social-media i {
+        padding: 10px;
+    }
+}
+@media(max-width:610px){
+    .text ,  footer input[type='email'] ,
+    footer input[type='submit'] {
+        font-size: 14px;
+    }
+    .list-footer li a {
+        padding: 10px;
+        font-size: 12px;
+    }
+    .social-media i {
+       font-size: 15px;
+    }
+}
+@media(max-width:470px){
+    .text {
+        font-size: 12px;
+    }
+    .list-footer li a {
+        padding: 5px;
+    }
+}
+@media(max-width:330px){
+    .text {
+        font-size: 10px;
+    }
+}

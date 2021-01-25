@@ -1,0 +1,63 @@
+<html>
+<head>
+<title></title>
+<script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+</script>
+<script> 
+$(function(){
+  $("#header").load("header.html"); 
+  $("#footer").load("footer.html"); 
+});
+</script> 
+</head>
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" class="css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+
+<body>
+<div id="header"></div>
+<br>
+<h1 style="font-size: l20px; color: green; text-align: center;">Premiun Plans</h1>
+
+<div class="card-group">
+    <div class="card " id="card-1">
+      <img src="images/beginner.png" class="card-img-top" alt="...">
+      <div class="card-body" style="font-size: 20px; color: white;">
+        <p class="card-text"><b>Unlimited access to yoga classes</b></p>
+        <p class="card-text"><b>24/7 Gym access</b></p>
+        <p class="card-text"><b>Use of locker & showers</b></p>
+      </div>
+    </div>
+    <div class="card " id="card-2">
+      <img src="images/pro.png" class="card-img-top" alt="...">
+      <div class="card-body" style="font-size: 20px; color: white;">
+        <p class="card-text"><b>Unlimited access to yoga classes</b></p>
+        <p class="card-text"><b>24/7 Gym access</b></p>
+        <p class="card-text"><b>Use of locker & showers</b></p>
+        <p class="card-text"><b>Weekday pool access</b></p>
+      </div>
+    </div>
+    <div class="card " id="card-3">
+      <img src="images/vip.png" class="card-img-top" alt="...">
+      <div class="card-body" style="font-size: 20px; color: white;">
+        <p class="card-text"><b>Unlimited access to yoga classes</b></p>
+        <p class="card-text"><b>24/7 Gym access</b></p>
+        <p class="card-text"><b>Access to pool 7 days a week</b></p>
+        <p class="card-text"><b>12% off on all store products</b></p>
+        <p class="card-text"><b>Free gym t-shirts</b></p>
+      </div>
+    </div>
+  </div>
+  <button class="btn" disabled>Best Value</button>
+  <button class="btn" id="btn1">Select</button>
+  <button class="btn" id="btn2">Select</button>
+  <button class="btn" id="btn3">Select</button>
+<div id="footer"></div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
